@@ -62,4 +62,4 @@ defaults:
 collections:
   people:
     output: true
-    permalink: /people/:title/lab2/index.html
+    permalink: /people/:title/index.html
