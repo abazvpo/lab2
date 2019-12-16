@@ -25,13 +25,13 @@ nav:
   - name:           "home"
     href:           "/"
   - name:           "about"
-    href:           "/about"
+    href:           "/lab2/about"
   - name:           "publications"
-    href:           "/publication"
+    href:           "/lab2/publication"
   - name:           "people"
-    href:           "/people"
+    href:           "/lab2/people"
   - name:           "resources"
-    href:           "/resources"
+    href:           "/lab2/resources"
 
 # Sass
 sass:
