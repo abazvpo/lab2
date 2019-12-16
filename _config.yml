@@ -23,7 +23,7 @@ highlighter:        rouge
 # Navigation
 nav:
   - name:           "home"
-    href:           "/"
+    href:           "/lab2/"
   - name:           "about"
     href:           "/lab2/about"
   - name:           "publications"
