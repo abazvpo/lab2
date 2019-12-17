@@ -8,7 +8,7 @@ description:        "this is a page for Gogo Elebiduna lab, we are ..."
 
 # URL
 url:                http://abazvpo.github.io/lab2
-baseurl:            http://abazvpo.github.io/lab2
+baseurl:            ""
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
 
