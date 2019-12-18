@@ -27,14 +27,14 @@ layout: default
       <i class="fa fa-fax"></i>+34 945013200
       </p>
 
-      <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
+   <!--   <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
         <div style="text-align:left">
           <h3> Recent News </h3>
           <u>Happenings of the last year. Updated 12/18/2019</u>
           <span style="display: block; margin-bottom: 1em"></span>
-          <div class="news">
+          <div class="news"> --->
       <!--- this is the original line        {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %} --->
-              {% capture now %}{{'now' | date: '%d' | minus: 365 %}}{% endcapture %} 
+<!---              {% capture now %}{{'now' | date: '%d' | minus: 365 %}}{% endcapture %} 
                 <ul style="list-style-position:outside;padding:20px" >
                    {% for new in site.data.news %} 
                      {% capture date %}{{new.date | date: '%d' | plus: 0 %}}{% endcapture %} 
@@ -49,9 +49,9 @@ layout: default
               </ul>
           </div>
         </div >
-      </div>
+      </div> 
 
-      <span style="display: block; margin-bottom: 3em"></span>
+      <span style="display: block; margin-bottom: 3em"></span> -->
 
     <!--  <a class="twitter-timeline" href="https://twitter.com/gogoelebiduna" data-widget-id="695051708246941697">Tweets by @gogoelebiduna</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
