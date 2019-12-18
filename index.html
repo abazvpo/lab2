@@ -29,18 +29,19 @@ layout: default
           <u>Happenings of the last year. Updated 12/18/2019</u>
           <span style="display: block; margin-bottom: 1em"></span>
           <div class="news">
-      <!---        {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %} --->
+      <!--- this is the original line        {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %} --->
+              {% capture now %}{{'now' | date: '%d' | minus: 365 %}}{% endcapture %} 
                 <ul style="list-style-position:outside;padding:20px" >
-        <!---           {% for new in site.data.news %} --->
-       <!---              {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %} --->
-         <!---            {% if date > now %} --->
+                   {% for new in site.data.news %} 
+                     {% capture date %}{{new.date | date: '%d' | plus: 0 %}}{% endcapture %} 
+                     {% if date > now %} 
                     <li>
                       <span>
-                  <!---      {{ new.details }} --->
+                        {{ new.details }} 
                       </span>
                     </li>
-      <!---            {% endif %} --->
-<!---                {% endfor %} --->
+                  {% endif %} 
+               {% endfor %} 
               </ul>
           </div>
         </div >
